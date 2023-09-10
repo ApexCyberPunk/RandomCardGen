@@ -15,7 +15,7 @@ body {
 .container {
     width: 90%;
     max-width: 25em;
-    border: 1px solid black;
+   
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -44,6 +44,7 @@ box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em blue;
 
 .img-container img {
     width: 100%;
+    border-radius: 50%;
 }
 
 .container button {
@@ -60,7 +61,29 @@ box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em blue;
     cursor: pointer;
 }
 
+.card h2 {
+    margin-top: 1.8em;
+    font-weight: 600;
+    color: blue;
+}
 
+.card h3, 
+.card h4 {
+    font-size: 1em;
+    letter-spacing: .02em;
+    margin-top: .5em;
+    font-weight: 300;
+    color: grey;
+}
+
+.card i {
+    color: blue;
+    margin-right: .3em;
+}
+
+.card h4 {
+    margin-top: 1em;
+}
 
 
 
