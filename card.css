@@ -39,7 +39,7 @@ display: block;
 margin: -8.75em auto 0 auto;
 background-color: whitesmoke;
 border-radius: 20px;
-box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em blue;
+box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em var(--theme-color);
 }
 
 .img-container img {
@@ -57,14 +57,14 @@ box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em blue;
     border: none;
     outline: none;
     font-weight: 600;
-    color: darkblue;
+    color: var(--theme-color);
     cursor: pointer;
 }
 
 .card h2 {
     margin-top: 1.8em;
     font-weight: 600;
-    color: blue;
+    color: var(--theme-color);
 }
 
 .card h3, 
@@ -72,12 +72,12 @@ box-shadow: 0 0 0 0.3em whitesmoke, 0 0 0 .9em blue;
     font-size: 1em;
     letter-spacing: .02em;
     margin-top: .5em;
-    font-weight: 300;
-    color: grey;
+    font-weight: 609;
+    color: var(--theme-color);
 }
 
 .card i {
-    color: blue;
+    color: var(--theme-color);
     margin-right: .3em;
 }
 

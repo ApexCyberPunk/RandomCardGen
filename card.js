@@ -8,13 +8,6 @@ let getUser = () => {
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        console.log(data)
-        console.log(data.first_name)
-        console.log(data.last_name)
-        console.log(data.avatar)
-        console.log(data.employment.title)
-        console.log(data.address.city)
-
         imgContainer.innerHTML = `
         <img src=${data.avatar}>
         `
@@ -25,7 +18,16 @@ let getUser = () => {
         `
     let randomColor = "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0")
     
+   document.documentElement.style.setProperty("--theme-color", randomColor)
+
     })
 }
 
 window.addEventListener('load', getUser)
+
+getUserBtn.addEventListener('click', getUser)
+
+
+
+
+
